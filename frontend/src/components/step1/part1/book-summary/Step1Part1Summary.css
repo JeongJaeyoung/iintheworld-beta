@@ -1,0 +1,1252 @@
+/* COMMON */
+
+.ant-anchor-wrapper .ant-anchor .ant-anchor-link-title {
+    color: #323232;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 1.8rem;
+}
+
+.p_tag_wrapper {
+    margin: 0 10px;
+    line-height: 1.8;
+}
+
+
+.sticky-elem {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+.left_sidebar_data_page{
+    display:none;
+}
+
+#show-scene-0 #part1_1-chapter0 .sticky-elem,
+#show-scene-1 #part1_1-chapter1 .sticky-elem,
+#show-scene-2 #part1_1-chapter2 .sticky-elem,
+#show-scene-3 #part1_1-chapter3 .sticky-elem {
+    display: block;
+}
+
+.main-message {
+    opacity: 0;
+    font-size: 100px;
+    font-weight: 800;
+    top: 35vh;
+}
+
+/* part1_1-section0 #세계지도를 펼치며 */
+
+.content-container {
+    display: flex;
+}
+
+.left-sidebar {
+    display: none;
+}
+
+#part1_1-chapter0 {
+    padding-top: 0vh;
+    background-color: #fff;
+}
+
+#chapter0_intro_message {
+    /* padding-top:8vh; 메뉴 높이만큼 내려줘야 본문 내용이 보임 */
+}
+
+#chapter0_image1 {
+    display: block;
+    margin: 0 auto;
+    width: 60vw;
+    padding: 50px 0;
+}
+
+#chapter0_sticky_0 {
+    position: sticky;
+    top: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+
+
+#worldmap_wild_wrapper {
+    position: sticky;
+    top: 5px;
+    display: flex;
+    align-items: baseline;
+    /* background-color: wheat; */
+    background-color: transparent;
+    overflow: visible;
+    margin-top: 50px;
+    height: 130vw;
+    /* vw로 잡아줘야 기준이 맞을듯 */
+}
+
+#worldmap_wild {
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+    background-color: #fff;
+
+}
+
+#japan_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 46vw;
+    top: 23vw;
+    border: 1px solid black;
+    background-image: url('../country-image/japan.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#europe_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 18vw;
+    top: 23vw;
+    border: 1px solid black;
+    background-image: url('../country-image/europe.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#china_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 34vw;
+    top: 22vw;
+    border: 1px solid black;
+    background-image: url('../country-image/china.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#usa_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 64vw;
+    top: 25vw;
+    border: 1px solid black;
+    background-image: url('../country-image/usa.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#korea_image {
+    width: 12vw;
+    height: 9vw;
+    background-color: #fff;
+    position: absolute;
+    left: 38vw;
+    top: 31.5vw;
+    border: 1px solid black;
+    background-image: url('../country-image/korea.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#japan_model_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 46vw;
+    top: 23vw;
+    border: 1px solid black;
+    background-image: url('../country-image/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+#europe_model_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 18vw;
+    top: 23vw;
+    border: 1px solid black;
+    background-image: url('../country-image/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+#china_model_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 34vw;
+    top: 22vw;
+    border: 1px solid black;
+    background-image: url('../country-image/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+#usa_model_image {
+    width: 11vw;
+    height: 8vw;
+    background-color: #fff;
+    position: absolute;
+    left: 64vw;
+    top: 25vw;
+    border: 1px solid black;
+    background-image: url('../country-image/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+
+#korea_model_image {
+    width: 12vw;
+    height: 9vw;
+    background-color: #fff;
+    position: absolute;
+    left: 38vw;
+    top: 31.5vw;
+    border: 1px solid black;
+    background-image: url('../country-image/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+#ch0_question_mark_image {
+    width: 30vw;
+    top: 30vw;
+    left: 70vw;
+    position: absolute;
+}
+
+#ch0_ahha_image {
+    width: 30vw;
+    top: 30vw;
+    left: 70vw;
+    position: absolute;
+    opacity: 0;
+}
+
+#ch0_watch_image {
+    width: 60vw;
+    left: 35vw;
+    top: 48vw;
+    position: absolute;
+}
+
+#mcw_introduction_green_board_image {
+    width: 90vw;
+    margin: 40px auto 0px auto;
+    padding-bottom: 20px;
+    display: block;
+
+}
+
+
+/* part1_1-section1 #금융경제와 실물경제 #금리 #GDP #물가 #환율 */
+#part1_1-chapter1 {
+    background-color: #fff;
+    position: relative;
+}
+
+#chapter1_sticky_1 {
+    padding-top: 0px;
+}
+
+
+.step_title {
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ch1_hash_keyword {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}
+
+#div_for_map_position_sticky {
+    height: 100vh;
+    /* 전제 높이 */
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+
+
+.padding30 {
+    padding-top: 30px;
+    position: relative;
+}
+
+#chapter2_content {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+#chapter3_content {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+
+
+
+#map_image_wrapper {
+    position: absolute;
+    /* #part1_1-chapter1에 position: relative가 있어서 기준점이 됨 */
+    top: 50vh;
+    /* height랑 합쳐서 전체 높이(100vh) */
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    background-color: transparent;
+    /* background-color: wheat; */
+}
+
+#map_image {
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+    /* 이미지 가운데 정렬 */
+    /* position:relative; */
+    position: absolute;
+    left: 15vw;
+    bottom: 20vw;
+    transform-origin: 50% 100%;
+}
+
+#interest_hash_image {
+    width: 40vw;
+    left: 27vw;
+    bottom: 41.5vw;
+    position: fixed;
+    opacity: 0;
+}
+
+#gdp_hash_image {
+    width: 50vw;
+    left: 25vw;
+    bottom: 34vw;
+    position: fixed;
+    opacity: 0;
+}
+
+
+
+#price_index_hash_image {
+    width: 35vw;
+    left: 3vw;
+    bottom: 39vw;
+    position: fixed;
+    opacity: 0;
+}
+
+#exchange_rate_hash_image {
+    width: 65vw;
+    left: 25vw;
+    bottom: 6vw;
+    position: fixed;
+    opacity: 0;
+}
+
+#ch2_individual_image {
+    position: fixed;
+    width: 12vw;
+    left: 28vw;
+    bottom: 43vw;
+    opacity: 0;
+    z-index: 1;
+    /* cycle 그림보다 앞으로 */
+}
+
+#ch2_firm_image {
+    position: fixed;
+    width: 18vw;
+    bottom: 43vw;
+    left: 48vw;
+    opacity: 0;
+    z-index: 1;
+    /* cycle 그림보다 앞으로 */
+}
+
+
+#ch2_commercial_bank_image {
+    position: fixed;
+    width: 20vw;
+    bottom: 50vw;
+    left: 35vw;
+    opacity: 0;
+    z-index: 1;
+    /* cycle 그림보다 앞으로 */
+}
+
+
+#ch2_central_bank_image {
+    position: fixed;
+    width: 20vw;
+    bottom: 55vw;
+    left: 30vw;
+    opacity: 0;
+    z-index: 1;
+    /* cycle 그림보다 앞으로 */
+}
+
+
+#ch2_government_image {
+    position: fixed;
+    width: 18vw;
+    bottom: 53vw;
+    /* width가 변할 땐, vw로 잡아줘고 괜찮고, height가 변할 때도 vw 단위를 써줘야 높이(떨어진 거리) 불변 */
+    left: 60vw;
+    opacity: 0;
+    z-index: 1;
+    /* cycle 그림보다 앞으로 */
+}
+
+#ch3_cycle_svg_wrapper {
+    background-color: #fff;
+    position: fixed;
+    border: 2px solid #111;
+    bottom: 56.5vw;
+    left: 23vw;
+    height: 35vw;
+    width: 54vw;
+    padding-top: 7vw;
+    opacity: 0;
+    box-sizing: border-box;
+
+}
+
+#cycle_svg {
+    /* 초록색 선 크기 */
+    width: 53.5vw;
+    height: 20vw;
+}
+
+#ch3_cycle_end_triangle {
+    opacity: 0;
+}
+
+
+#map_finish_wrapper {
+    width: 100vw;
+    background-color: #fff;
+}
+
+#map_finish {
+    display: block;
+    width: 90vw;
+    margin: 50px auto;
+}
+
+
+#part1_chapter2_preparation_for_trip_image_wrapper {
+    width: 100vw;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+#part1_chapter2_preparation_for_trip_image {
+    width: 50vw;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+
+/* part1_1-section2 5명의 경제 주인공들 #개인 #기업 #시중은행 #중앙은행 #정부 */
+#part1_1-chapter2 {
+    background-color: #fff;
+}
+
+
+
+
+/* part1_1-section3 경기 CYCLE #개인 #기업 #시중은행 #중앙은행 #정부 */
+#part1_1-chapter3 {
+    background-color: #fff;
+}
+
+#part1_chapter3_trip_to_japan_skeleton_image_wrapper {
+    width: 90vw;
+    background-color: #fff;
+}
+
+#part1_chapter3_trip_to_japan_skeleton_image {
+    width: 80vw;
+    background-color: #fff;
+}
+
+
+/* 일본, 유럽, 중국, 미국, 한국 */
+#div_for_trip_section_stikcy {
+    position: sticky;
+    background-color: #fff;
+    height: 100vh;
+    top: 0px;
+}
+
+
+#chapter_trip_content_europe {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+#chapter_trip_content_china {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+#chapter_trip_content_usa {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+#chapter_trip_content_korea {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+
+#trip_to_image_wrapper {
+    position: absolute;
+    /* #part1_1-chapter1에 position: relative가 있어서 기준점이 됨 */
+    top: 50vh;
+    /* height랑 합쳐서 전체 높이(100vh) */
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    /* 바닥에 붙여야 기준점 잡을 수 있음 */
+    background-color: transparent;
+    /* background-color: wheat; */
+}
+
+#trip_to_default_setting_image {
+    width: 90vw;
+    position: absolute;
+    bottom: 30vw;
+    display: block;
+    left: 5vw;
+    /* 10vw + 80vw + 10vw = 100vw */
+}
+
+#trip_to_japan_skeleton_image {
+    width: 58vw;
+    left: 25vw;
+    bottom: 39.5vw;
+    position: absolute;
+    /* section들어오면 display:block; */
+    opacity: 1;
+}
+
+#trip_to_europe_skeleton_image {
+    width: 32vw;
+    left: 25vw;
+    bottom: 41.5vw;
+    position: fixed;
+    display: none;
+    opacity: 0;
+}
+
+#trip_to_china_skeleton_image {
+    width: 45vw;
+    left: 25vw;
+    bottom: 43vw;
+    position: fixed;
+    display: none;
+    opacity: 0;
+}
+
+#trip_to_usa_skeleton_image {
+    width: 35vw;
+    left: 19vw;
+    bottom: 39vw;
+    position: fixed;
+    display: none;
+    opacity: 0;
+}
+
+#trip_to_korea_skeleton_image {
+    width: 50vw;
+    left: 25vw;
+    bottom: 35.2vw;
+    position: fixed;
+    opacity: 0;
+    display: none;
+}
+
+.right-sidebar {
+    display: none;
+}
+
+
+
+
+/* 데스크탑 버전 -------------------------------------------------------------------------------------------*/
+@media (min-width: 500px) {
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-sidebar {
+        width: 25%;
+        display: block;
+        max-width: 250px;
+    }
+
+    .left_sidebar_data_page{
+        display:block;
+    }
+
+    .mcw_left_sidebar_block {
+        margin: 10px 0 20px 0;
+        font-size: 14px;
+    }
+
+    #mcw_left_sidebar_first {
+        margin-bottom: 40px;
+    }
+
+    .mcw_left_sidebar_depth1 {
+        /* padding-left:10px; */
+        margin-top: 10px;
+    }
+
+    .mcw_left_sidebar_depth2 {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .mcw_left_sidebar_depth3 {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+
+    .main-content {
+        width: 75%;
+        max-width: 750px;
+        padding-left: 20px;
+    }
+
+
+    #chapter0_intro_message {
+        /* padding-top:20vh; 메뉴 높이만큼 내려줘야 본문 내용이 보임 */
+    }
+
+    #chapter0_image1 {
+        /* display: block;
+        margin: 0 auto; */
+        width: 300px;
+        /* padding:50px 0; */
+    }
+
+    #worldmap_wild_wrapper {
+        /* position: sticky;
+        top:5px;
+        display: flex;
+        align-items:baseline;
+        overflow:visible;
+        margin-top: 50px; */
+        height: 650px;
+        background-color: #fff;
+    }
+
+    #worldmap_wild {
+        /* display: block;
+        margin: 0 auto; */
+        width: 500px;
+
+    }
+
+    #japan_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 360px;
+        top: 140px;
+        border: 1px solid black;
+        background-image: url('../country-image/japan.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #europe_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 190px;
+        top: 130px;
+        border: 1px solid black;
+        background-image: url('../country-image/europe.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #china_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 280px;
+        top: 110px;
+        border: 1px solid black;
+        background-image: url('../country-image/china.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #usa_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 450px;
+        top: 150px;
+        border: 1px solid black;
+        background-image: url('../country-image/usa.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #korea_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        left: 290px;
+        top: 165px;
+        border: 1px solid black;
+        background-image: url('../country-image/korea.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #japan_model_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 360px;
+        top: 140px;
+        border: 1px solid black;
+        background-image: url('../country-image/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    #europe_model_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 190px;
+        top: 130px;
+        border: 1px solid black;
+        background-image: url('../country-image/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    #china_model_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 280px;
+        top: 110px;
+        border: 1px solid black;
+        background-image: url('../country-image/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    #usa_model_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 450px;
+        top: 150px;
+        border: 1px solid black;
+        background-image: url('../country-image/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+
+    #korea_model_image {
+        width: 60px;
+        height: 45px;
+        background-color: #fff;
+        position: absolute;
+        left: 290px;
+        top: 165px;
+        border: 1px solid black;
+        background-image: url('../country-image/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    #ch0_question_mark_image {
+        width: 150px;
+        top: 180px;
+        left: 500px;
+        position: absolute;
+    }
+
+    #ch0_ahha_image {
+        width: 180px;
+        top: 180px;
+        left: 500px;
+        /* position:absolute;
+        opacity: 0; */
+    }
+
+    #ch0_watch_image {
+        width: 250px;
+        left: 350px;
+        top: 300px;
+        position: absolute;
+    }
+
+    #mcw_introduction_green_board_image {
+        width: 400px;
+        margin: 40px auto 0px auto;
+        padding-bottom: 20px;
+        display: block;
+
+    }
+
+    #map_finish_wrapper {
+        width: 750px;
+        background-color: #fff;
+    }
+
+    #map_finish {
+        /* display: block; */
+        width: 500px;
+        margin: 30px auto;
+        display: block;
+    }
+
+    /* section1 : step1 2 3 설명 */
+    #div_for_map_position_sticky {
+        /* 가벼운 설명은 오른쪽 배치 */
+        height: 100vh;
+        /* 전제 높이 */
+        position: sticky;
+        display: flex;
+        /* justify-content: flex-end; */
+        top: 0px;
+        background-color: #fff;
+    }
+
+    .page1_section1_position_for_desktop {
+        width: 350px;
+        top: 20vh;
+        height: 60vh;
+        padding-top: 0vh;
+    }
+
+    #chapter1_content {
+        background-color: #fff;
+    }
+
+    #chapter2_content {
+        height: 60vh;
+        background-color: #fff;
+        position: absolute;
+        width: 350px;
+        top: 20vh;
+        opacity: 0;
+    }
+
+    #chapter3_content {
+        height: 60vh;
+        background-color: #fff;
+        position: absolute;
+        width: 350px;
+        top: 20vh;
+        opacity: 0;
+    }
+
+
+    #map_image_wrapper {
+        position: absolute;
+        /* #part1_1-chapter1에 position: relative가 있어서 기준점이 됨 */
+
+        height: 400px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        /* opacity:0.1; */
+
+        top: 50%;
+        left: 100%;
+        transform: translate(-100%, -50%);
+    }
+
+    #map_image {
+        /* display: block; */
+        /* width: 300px; */
+        /* margin: 0 auto; 이미지 가운데 정렬  */
+        /* position:relative; */
+        /* left:5vw; */
+        height: 240px;
+        width: 300px;
+
+        left: unset;
+        bottom: unset;
+    }
+
+    .map_position_for_desktop_when_fixed {
+        /* fixed 될 때 desktop 큰 화면에선 이 클래스가 추가되기 때문에,
+        이 위치로 설정됨 : viewport 기준으로 left 위치임.
+        important는 우선순위에 따라 해준 것임. 안 해주면 #map image의 left가 적용됨
+        left바가 15%이므로, 이 클래스는 #map_image의 left로부터 15vw더 더해줘야 동일 위치임 */
+        /* left:5vw !important; 5vw + 15vw */
+    }
+
+    #interest_hash_image {
+        width: 140px;
+        left: 60px;
+        top: 200px;
+        bottom: unset;
+        position: absolute;
+        opacity: 0;
+    }
+
+    #gdp_hash_image {
+        width: 200px;
+        top: 220px;
+        left: 40px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    #price_index_hash_image {
+        width: 130px;
+        left: -30px;
+        bottom: unset;
+        top: 220px;
+
+        position: absolute;
+        opacity: 0;
+    }
+
+    #exchange_rate_hash_image {
+        width: 270px;
+        top: 330px;
+        left: 50px;
+        bottom: unset;
+        position: absolute;
+        opacity: 0;
+    }
+
+
+    #ch2_individual_image {
+        position: absolute;
+        width: 40px;
+        top: 225px;
+        left: 80px;
+        bottom: unset;
+        opacity: 0;
+    }
+
+    #ch2_firm_image {
+        position: absolute;
+        width: 60px;
+        top: 227px;
+        left: 145px;
+        bottom: unset;
+        opacity: 0;
+    }
+
+
+    #ch2_commercial_bank_image {
+        position: absolute;
+        width: 90px;
+        top: 215px;
+        left: 90px;
+        bottom: unset;
+        opacity: 0;
+    }
+
+
+    #ch2_central_bank_image {
+        position: absolute;
+        width: 80px;
+        top: 190px;
+        left: 70px;
+        bottom: unset;
+        opacity: 0;
+    }
+
+
+    #ch2_government_image {
+        position: absolute;
+        width: 70px;
+        top: 190px;
+        left: 190px;
+        bottom: unset;
+
+        opacity: 0;
+    }
+
+    #ch3_cycle_svg_wrapper {
+        background-color: #fff;
+        position: fixed;
+        border: 3px solid #111;
+        top: 92px;
+        left: 39px;
+        height: 140px;
+        width: 223px;
+        padding: 30px 0 0 18px;
+        opacity: 0;
+        box-sizing: border-box;
+    }
+
+
+    #cycle_svg {
+        /* 초록색 선 크기 */
+        width: 180px;
+
+        height: 80px;
+    }
+
+    #ch3_cycle_end_triangle {
+        opacity: 0;
+    }
+
+
+    #part1_1-chapter2 {
+        background-color: #fff;
+    }
+
+
+    #part1_chapter2_preparation_for_trip_image_wrapper {
+        width: 750px;
+        background-color: #fff;
+    }
+
+
+    #part1_chapter2_preparation_for_trip_image {
+        width: 200px;
+        display: block;
+        margin: 50px auto;
+    }
+
+
+    #chapter_trip_content_japan {
+        width: 350px;
+        top: 30vh;
+        height: 40vh;
+        background-color: #fff;
+        position: absolute;
+        opacity: 0;
+    }
+
+    #chapter_trip_content_europe {
+        width: 350px;
+        top: 30vh;
+        height: 40vh;
+        background-color: #fff;
+        position: absolute;
+        opacity: 0;
+    }
+
+    #chapter_trip_content_china {
+        width: 350px;
+        top: 30vh;
+        height: 40vh;
+        background-color: #fff;
+        position: absolute;
+
+        opacity: 0;
+    }
+
+    #chapter_trip_content_usa {
+        width: 350px;
+        top: 30vh;
+        height: 40vh;
+        background-color: #fff;
+        position: absolute;
+
+        opacity: 0;
+    }
+
+    #chapter_trip_content_korea {
+        width: 350px;
+        top: 30vh;
+        height: 40vh;
+        background-color: #fff;
+        position: absolute;
+
+        opacity: 0;
+    }
+
+
+    #trip_to_image_wrapper {
+        position: absolute;
+        /* #part1_1-chapter1에 position: relative가 있어서 기준점이 됨 */
+
+        height: 400px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        /* opacity:0.5; */
+
+        top: 50%;
+        left: 100%;
+        transform: translate(-100%, -50%);
+    }
+
+
+    #trip_to_default_setting_image {
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        top: 100px;
+        left: 0px;
+        /* 10vw + 80vw + 10vw = 100vw */
+    }
+
+    #trip_to_japan_skeleton_image {
+        width: 190px;
+        left: 65px;
+        top: 138px;
+        position: absolute;
+        /* section들어오면 display:block; */
+        opacity: 1;
+    }
+
+    #trip_to_europe_skeleton_image {
+        width: 110px;
+        left: 68px;
+        top: 138px;
+        position: fixed;
+        display: none;
+        opacity: 0;
+    }
+
+    #trip_to_china_skeleton_image {
+        width: 155px;
+        left: 68px;
+        top: 138px;
+        position: fixed;
+        display: none;
+        opacity: 0;
+    }
+
+    #trip_to_usa_skeleton_image {
+        width: 115px;
+        left: 50px;
+        top: 138px;
+        position: fixed;
+        display: none;
+        opacity: 0;
+    }
+
+    #trip_to_korea_skeleton_image {
+        width: 160px;
+        left: 68px;
+        top: 138px;
+        position: fixed;
+        opacity: 0;
+        display: none;
+    }
+
+    /* .left_sidebar_step2_bold{
+        font-weight: 700;
+    } */
+
+    .right-sidebar {
+        display: none;
+        width: 0%;
+    }
+}

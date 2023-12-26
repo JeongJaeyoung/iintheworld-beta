@@ -1,0 +1,54 @@
+#announcement-detail-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#announcement-detail-card{
+    max-width:1000px;
+    width:1000px;
+    /* border: 1px solid #e8e8e8; */
+    padding:20px 0;
+    border-radius: 5px;
+    margin:40px;
+}
+
+#announcement-detail-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#announcement-detail-title{
+    padding:20px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.announcement-detail-button{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    background-color: #fff;
+    padding : 5px 8px;
+}
+
+#announcement-detail-button:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#announcement-detail-content{
+    padding:20px 0;
+    font-size: 16px;
+}
+
+#announcement-detail-hr{
+    border: 0.5px solid #e8e8e8;
+}
+
+
+
+/* 모바일 */
+@media (max-width: 500px){
+    
+}

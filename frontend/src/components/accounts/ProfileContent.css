@@ -1,0 +1,49 @@
+/* 모바일 */
+#auth-profile-image{
+    width:50px;
+    
+}
+
+#display-true-at-mobile{
+    display: block;
+    padding: 0px 10px;
+}
+
+#display-true-at-desktop{
+    display: none;
+}
+
+#receipt-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#receipt-table th, #receipt-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.profile-mobile-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+#profile-classroom-empty-lecture{
+    text-align: center;
+    padding:100px 0px;
+}
+
+
+/* 데스크탑 */
+@media(min-width:500px){
+    #display-true-at-mobile{
+        display: none;
+    }
+    
+    #display-true-at-desktop{
+        display: block;
+    }    
+}
+
+

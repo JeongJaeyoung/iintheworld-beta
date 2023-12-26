@@ -1,0 +1,743 @@
+/* 모바일 */
+.step1-home-br-true-at-mobile {
+    display: inline;
+}
+
+.step1-home-display-block-true-at-desktop {
+    display: none;
+}
+
+.step1-home-display-block-true-at-mobile {
+    display: block;
+}
+
+#step1-home-padding{
+    padding: 0 20px;
+}
+
+#step1-home-carousel1 {
+    height: 63vh; /* 7 + 63 + 30 = 100vh */
+    color: #323232;
+    line-height: 160px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: end;
+    /* top: 0vh; */
+    justify-content: center;
+}
+
+#step1-home-carousel1-image {
+    width: 90vw;
+    height: auto;
+    margin: 0 auto 8vh auto;
+}
+
+#step1-home-carousel1-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    /* 수정된 부분 */
+    transform: translateX(-50%);
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90vw;
+}
+
+#step1-home-carousel2 {
+    height: 63vh; /* 7 + 63 + 30 = 100vh */
+    color: #323232;
+    line-height: 160px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: end;
+    /* top: 5vh; */
+    justify-content: center;
+}
+
+#step1-home-carousel2-image {
+    /* 모자 쓰고, 캐리어 끄는 캐릭터 */
+    width: 25vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 15vw;
+}
+
+#step1-home-carousel2-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    /* 수정된 부분 */
+    transform: translateX(-50%);
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+        0 0 40px #fff, 0 0 45px #fff, 0 0 50px #fff, 0 0 75px #fff;
+    width: 90vw;
+}
+
+
+/* 본문 */
+.step1-home-font-bold {
+    font-weight: 700;
+}
+
+#step1-home-section1 {
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+    text-align: center;
+    height:30vh;
+}
+
+.step1-home-content-title {
+    font-size: 16px;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.step1-home-content-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#step1-home-section2 {
+    /* 한눈에 살펴보는 커리큘럼 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+}
+
+#step1-home-section2-content-wrapper {
+    width: 100%;
+}
+
+#step0-home-step1-descriptions {
+    max-width: 95vw;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* height:400px; */
+}
+
+.step0-home-step1-descrtiption-left-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step0-home-step1-description-card {
+    width: 50vw;
+    padding: 10px;
+    height: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.step0-home-step1-description-card:hover {
+    box-shadow: rgb(20 20 20 / 10%) 0px 8px 30px;
+}
+
+.step0-home-step1-description-head {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step0-home-step1-description-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+#step0-home-step1-section2-first-image {
+    width: 160px;
+}
+
+.step0-home-step1-description-image {
+    width: 100px;
+}
+
+
+.step0-home-step1-description-tail {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.step0-home-step1-description-card:nth-child(odd) {
+    position: relative;
+    /* top: -50px; */
+}
+
+
+.step0-home-step1-description-card:nth-child(even) {
+    position: relative;
+    /* top: 50px; */
+}
+
+#step0-home-step1-section2-last-image {
+    width: 160px;
+}
+
+#step1-home-section2-road-image-mobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 10%;
+    height: 100%;
+}
+
+#step1-home-section3 {
+    /* 1. 돈이 굴리는 세상 - 이론편 */
+    padding: 0 0 50px 0;
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+}
+
+#step1-home-section3-images-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+#step1-home-section4 {
+    /* 2. 돈이 굴리는 세상 - 현실편 */
+    margin-bottom: 150px;
+    /* border: 1px solid black; */
+}
+
+#step1-home-section4-image-wrapper {
+    margin: 0 auto;
+    width: 90vw;
+    position: relative;
+}
+
+#step1-home-section4-image {
+    width: 90vw;
+}
+
+#step1-home-section5 {
+    margin-bottom: 150px;
+}
+
+#step1-home-please-image {
+    cursor: pointer;
+}
+
+#step1-home-section6 {
+    margin-bottom: 150px;
+}
+
+#step1-home-section6-wrapper{
+    margin-bottom: 80px;
+}
+
+#step1-home-section6-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#page0_please_image_wrapper_a_tag {
+    display: block;
+    width: 300px;
+    /* padding-bottom: 50px; */
+    margin: 0 auto;
+}
+
+#page0_please_image {
+    display: block;
+    width: 300px;
+    /* margin:100px 50px 100px 0px; */
+}
+
+#step1-home-final-comment-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#step1-home-final-comment{
+    width:80vw;
+    background-color: #DFB573;
+    color:#323232;
+    text-align: center;
+    padding:15px 0px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #e8e8e8;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#step1-home-final-comment:hover{
+    background-color: #c5965e;
+}
+
+a:hover{
+    /* 전역 값 덮어쓰기 */
+    color:#323232;
+}
+
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* 배경 블러 효과를 위한 투명 배경 */
+    z-index: 1;
+}
+
+
+.modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin: 0 20px;
+}
+
+#step1-home-close-button {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#step1-home-modal-header {
+    text-align: right;
+}
+
+#step1-home-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    position: relative;
+}
+
+#step1-home-book-image-wrapper{
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+}
+
+#step1-home-book-image{
+    width: 60px;
+}
+
+
+#step1-home-lecture-image-wrapper{
+    position: absolute;
+    top: 25vh;
+    right: 0vw;
+}
+
+#step1-home-lecture-image{
+    width: 80px;
+}
+
+
+/* 데스크탑 */
+@media (min-width: 500px) {
+    .step1-home-br-true-at-mobile {
+        display: none;
+    }
+
+    .step1-home-display-block-true-at-desktop {
+        display: block;
+    }
+
+    .step1-home-display-block-true-at-mobile {
+        display: none;
+    }
+    
+    #step1-home-padding{
+        padding: 0 0px;
+    }
+
+    #step1-home-carousel1 {
+        height: 85vh;
+        color: #323232;
+        line-height: 160px;
+        text-align: center;
+        background: #fff;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        top: 0vh;
+        justify-content: center;
+    }
+
+    #step1-home-carousel1-image {
+        width: auto;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    #step1-home-carousel1-text {
+        position: absolute;
+        top: 15%;
+        left: 75%;
+        line-height: 2;
+        font-size: 20px;
+        font-weight: 700;
+        width: 300px;
+    }
+
+    #step1-home-carousel2 {
+        height: 80vh;
+        color: #323232;
+        line-height: 160px;
+        text-align: center;
+        background: #fff;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        top: 5vh;
+        justify-content: center;
+    }
+
+    #step1-home-carousel2-image {
+        width: 200px;
+        position: absolute;
+        bottom: 120px;
+    }
+
+    #step1-home-carousel2-text {
+        position: absolute;
+        top: 5%;
+        left: 70%;
+        line-height: 2;
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+            0 0 40px #fff, 0 0 45px #fff, 0 0 50px #fff, 0 0 75px #fff;
+        width: auto;
+    }
+
+
+    /* SECTION1 */
+    #step1-home-section1 {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+        font-size: 25px;
+        line-height: 2;
+        font-weight: 400;
+        text-align: center;
+        margin: auto;
+    }
+
+    .step1-home-font-bold {
+        font-weight: 700;
+    }
+
+    .step1-home-content-title {
+        font-size: 20px;
+        font-weight: 900;
+        border-bottom: 3px solid black;
+        padding-bottom: 7px;
+        margin: 20px 0;
+        display: inline-block;
+    }
+
+    .step1-home-content-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px 0;
+        line-height: 2;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #step1-home-section2 {
+        /* 한눈에 살펴보는 커리큘럼 */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* border: 1px solid black; */
+        margin-bottom: 150px;
+    }
+
+    #step1-home-section2-content-wrapper {
+        width: auto;
+    }
+
+    #step0-home-step1-descriptions {
+        max-width: 1000px;
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+        flex-direction: row;
+    }
+
+    .step0-home-step1-descrtiption-left-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #step0-home-step1-section2-first-image {
+        width: 100px;
+    }
+
+    .step0-home-step1-description-card {
+        width: 150px;
+        padding: 10px;
+        height: 150px;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #e8e8e8;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 700;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .step0-home-step1-description-card:hover {
+        box-shadow: rgb(20 20 20 / 10%) 0px 8px 30px;
+    }
+
+    .step0-home-step1-description-head {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step0-home-step1-description-image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+    }
+
+    .step0-home-step1-description-image {
+        width: 100px;
+    }
+
+    .step0-home-step1-description-tail {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step0-home-step1-description-card:nth-child(odd) {
+        position: relative;
+        top: -50px;
+    }
+
+    .step0-home-step1-description-card:nth-child(even) {
+        position: relative;
+        top: 50px;
+    }
+
+    #step0-home-step1-section2-last-image {
+        width: 100px;
+    }
+
+    #step1-home-section3 {
+        /* 1. 돈이 굴리는 세상 - 이론편 */
+        padding: 0 0 50px 0;
+        /* border: 1px solid black; */
+        margin-bottom: 150px;
+    }
+
+    #step1-home-section3-images-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 800px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #step1-home-section4 {
+        /* 2. 돈이 굴리는 세상 - 현실편 */
+        margin-bottom: 150px;
+        /* border: 1px solid black; */
+    }
+
+    #step1-home-section4-image-wrapper {
+        margin: 0 auto;
+        width: 700px;
+        position: relative;
+    }
+
+    #step1-home-section4-image {
+        width: 700px;
+    }
+
+    #step1-home-section5 {
+        margin-bottom: 150px;
+    }
+
+    #step1-home-please-image {
+        cursor: pointer;
+    }
+
+    #step1-home-section6 {
+        margin-bottom: 150px;
+    }
+
+    #step1-home-section6-image-wrapper {
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    #page0_please_image_wrapper_a_tag {
+        display: block;
+        width: 300px;
+        margin: 0;
+        padding-bottom: unset;
+    }
+
+    #page0_please_image {
+        display: block;
+        width: 300px;
+        /* margin: 100px 50px 100px 0px; */
+    }
+
+    #step1-home-section6-wrapper{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+
+    #step1-home-final-comment{
+        margin:0px;
+        /* max-width: 300px; */
+        width: 100%;
+    }
+
+    .modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        /* 배경 블러 효과를 위한 투명 배경 */
+        z-index: 1;
+    }
+
+    .modal {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        width: 800px;
+        height: 500px;
+        position: relative;
+    }
+
+    #step1-home-close-button {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #step1-home-modal-header {
+        text-align: right;
+    }
+
+    #step1-home-modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        position: relative;
+    }
+
+    #step1-home-book-image-wrapper{
+        position: absolute;
+        top: 160px;
+        left: 170px;
+    }
+
+    #step1-home-book-image{
+        width: 120px;
+    }
+
+    #step1-home-lecture-image-wrapper{
+        position: absolute;
+        top: 170px;
+        left: 500px;
+    }
+    
+    #step1-home-lecture-image{
+        width: 150px;
+    }
+}

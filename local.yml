@@ -1,0 +1,129 @@
+name: iintheworld_beta-react_django_postgres-local
+version: "3.9"
+
+services:
+  nginx_proxy:
+    container_name: nginx_proxy
+    image: nginx:1.19.0-alpine
+    depends_on:
+      - frontend_react
+      - backend_django_gunicorn
+      - postgres
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - "./docker/local/nginx_proxy/default.conf:/etc/nginx/conf.d/default.conf"
+      - react_build:/var/www/react
+      - static-volume:/app/staticfiles
+      - media-volume:/app/mediafiles
+    networks:
+      - iintheworld_beta_network
+
+  frontend_react:
+    container_name: frontend_react
+    build:
+      context: .
+      dockerfile: ./docker/local/react/Dockerfile
+    restart: always
+    ports:
+      - "3000"
+    expose:
+      - "3000"
+    volumes:
+      - react_build:/app/build
+    networks:
+      - iintheworld_beta_network
+
+  backend_django_gunicorn:
+    container_name: backend_django_gunicorn
+    build:
+      context: .
+      dockerfile: ./docker/local/django/Dockerfile
+    command: /start
+    volumes:
+      - ./backend:/app:z
+      - static-volume:/app/staticfiles
+      - media-volume:/app/mediafiles
+    ports:
+      - "8000"
+    expose:
+      - "8000"
+    env_file:
+      - ./backend/.envs/.local/.django
+      - ./backend/.envs/.local/.postgres
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - iintheworld_beta_network
+
+  redis:
+    container_name: redis
+    image: redis:7-alpine
+    networks:
+      - iintheworld_beta_network
+
+  celery:
+    container_name: celery
+    build:
+      context: .
+      dockerfile: ./docker/local/django/Dockerfile
+    command: /start-celeryworker
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.envs/.local/.django
+      - ./backend/.envs/.local/.postgres
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - iintheworld_beta_network
+
+  flower:
+    container_name: flower
+    build:
+      context: .
+      dockerfile: ./docker/local/django/Dockerfile
+    command: /start-flower
+    volumes:
+      - flower_data:/data
+    env_file:
+      - ./backend/.envs/.local/.django
+      - ./backend/.envs/.local/.postgres
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - iintheworld_beta_network
+
+  postgres:
+    container_name: postgres
+    build:
+        context: .
+        dockerfile: ./docker/local/postgres/Dockerfile
+    container_name: iintheworld_beta_postgres
+    volumes:
+        - local_postgres_data:/var/lib/postgresql/data
+        - local_postgres_data_backups:/backups
+    ports:
+      - "5432:5432"
+    env_file:
+        - ./backend/.envs/.local/.postgres
+    networks:
+        - iintheworld_beta_network
+
+networks:
+  iintheworld_beta_network:
+    driver: bridge
+
+volumes:
+  react_build:
+  static-volume:
+  media-volume:
+  local_postgres_data: {}
+  local_postgres_data_backups: {}
+  flower_data: {}

@@ -1,0 +1,172 @@
+#map-wrapper{
+    position:relative;
+}
+
+#map{
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#map_now{
+    opacity:1;
+}
+
+.map_japan_image{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:115px;
+    top:40px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.3;
+}
+
+
+.map_japan_image_back{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:115px;
+    top:40px;
+    border:1px solid black;
+    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:1;
+}
+
+.map_europe_image{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:35px;
+    top:38px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.3;
+}
+
+.map_europe_image_back{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:35px;
+    top:38px;
+    border:1px solid black;
+    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:1;
+}
+
+
+.map_china_image{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:75px;
+    top:35px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.3;
+}
+
+
+.map_china_image_back{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:75px;
+    top:35px;
+    border:1px solid black;
+    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:1;
+}
+
+
+
+
+
+
+
+.map_usa_image{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:160px;
+    top:40px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.3;
+}
+
+.map_usa_image_back{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:160px;
+    top:40px;
+    border:1px solid black;
+    
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:1;
+}
+
+
+
+
+
+
+.map_korea_image{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:88px;
+    top:58px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.3;
+}
+
+.map_korea_image_back{
+    width:25px;
+    height:20px;
+    background-color: #fff;
+    position: absolute;
+    left:88px;
+    top:58px;
+    border:1px solid black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:1;
+}

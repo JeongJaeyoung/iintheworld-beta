@@ -1,0 +1,21 @@
+/* 모바일 */
+#board-post-button{
+    color: #323232;
+    font-weight: 700;
+    border: 1.5px solid #e8e8e8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#board-post-button:hover{
+    background-color: #f1f1f1;
+}
+
+/* 데스크탑 */
+@media (min-width: 500px){
+    #board-post-button{
+
+    }
+}

@@ -1,0 +1,16 @@
+#rows-or-cards-wrapper{
+    display: flex;
+    justify-content: end;
+    margin:8vh 10px 10px 0px;
+}
+
+#rows-or-cards-outline{
+    border: 1px solid #e8e8e8;
+    display: inline-flex;
+    padding:5px;
+    border-radius: 5px;
+}
+
+#rows-or-cards-first-icon{
+    margin-right: 10px;
+}

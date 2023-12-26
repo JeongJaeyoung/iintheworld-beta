@@ -1,0 +1,21 @@
+/* 모바일 */
+#book-announcement-space{
+    width: 85vw;
+    margin: 3vh auto 30px auto;
+    display: block;
+}
+
+#book-announcement-dispaly-true-at-mobile{
+    display: block;
+}
+
+
+/* 데스크탑 */
+@media(min-width:500px){
+    #book-announcement-space{
+        width: 70%;
+    }
+    #book-announcement-dispaly-true-at-mobile{
+        display: none;
+    }
+}

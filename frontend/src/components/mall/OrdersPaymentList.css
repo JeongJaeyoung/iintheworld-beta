@@ -1,0 +1,14 @@
+#orders-wrapper{
+    margin:20px;
+}
+
+.order-wrapper{
+    width:80%;
+    border: 1px solid #e8e8e8;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:20px;
+    line-height: 1.8;
+}

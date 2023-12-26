@@ -1,0 +1,11 @@
+/* 모바일 */
+#display-true-at-mobile{
+    /* display: block; */
+}
+
+/* 데스크탑 */
+@media(min-width:500px){
+    #display-true-at-mobile{
+        /* display: none; */
+    }
+}

@@ -1,0 +1,22 @@
+/* 모바일 */
+#econ-data-intro-text{
+    line-height: 1.8;
+    margin: 30px 10px 0px 10px;
+}
+
+#econ-data-intro-text-mobile-true{
+    display: block;
+}
+
+
+/* 데스크탑 */
+@media(min-width:500px){
+    #econ-data-intro-text{
+        line-height: 1.8;
+        margin: 0px 50px;
+    }
+
+    #econ-data-intro-text-mobile-true{
+        display: none;
+    }   
+}

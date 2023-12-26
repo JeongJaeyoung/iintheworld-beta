@@ -1,0 +1,13 @@
+/* 모바일 */
+#layout_left_sidebar{
+    display: none;
+}    
+
+
+/* 데스크탑 */
+@media (min-width : 500px){
+    #layout_left_sidebar{
+        display: block;
+        width:20%;
+    }    
+}

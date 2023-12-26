@@ -1,0 +1,64 @@
+/* 모바일 */
+#signout-viewport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+#signout-card {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 24px 20px 0px 20px;
+    margin: 30px;
+}
+
+#signout-card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    /* padding:5px 0 5px 0; */
+}
+
+#signout-button {
+    font-family: NanumSquareRoundR;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #fff;
+    /* border: 1.5px solid #e8e8e8; */
+    /* box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15) !important; */
+    background: #323232;
+    margin: 0px auto 0 auto;
+    cursor: pointer;
+    width: 100%;
+}
+
+#signout-button:hover {
+    background: #2b2b2b;
+    /* color:#fff; */
+}
+
+
+/* 데스트탑 */
+@media (min-width: 500px) {
+    #signout-viewport {
+        height:50vh;
+    }
+
+    #signout-card {
+        margin: 0px;
+    }
+}

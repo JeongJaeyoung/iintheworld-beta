@@ -1,0 +1,203 @@
+html, body {
+
+  }
+.blur img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: calc(100% + 40px);
+  background-size: cover;
+  -webkit-filter: blur(6px); 
+  -moz-filter: blur(6px); 
+  filter: blur(6px);
+}
+
+.book-container { 
+  width: 150px; 
+  margin: 50px auto; 
+  display: block;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  perspective: 1200px;
+}
+.book { 
+  z-index: 5; 
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  transition: 0.75s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 125px 0;
+  -moz-transform-origin: 125px 0;
+  transform-origin: 125px 0;
+}
+
+.book:hover {
+    /* -webkit-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+    -moz-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+    transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg); */
+}
+.book-cover { 
+  position: relative; 
+  border:0.5px solid #d3d3d3;
+  z-index: 9; 
+}
+
+.book-cover img { 
+  vertical-align: bottom; 
+  max-width: 100%; 
+  height: auto; 
+}
+.book-spine { 
+  position: absolute; 
+  color: #111; 
+  position: absolute; 
+  bottom: 0; 
+  top: 0px; 
+  width:7vw;
+  min-width:20px;
+  max-width:40px;
+  height:60vw;
+  max-height: 224px;
+  left:0px; /* 중심점으로부터의 공간 수직 거리 */
+  z-index: 5; 
+  overflow: hidden; 
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  border:0.5px solid #d3d3d3;
+  /* background: url('/image/book_iintheworld_title_line.png') 0 0 no-repeat; */
+  background-size: cover;
+  -webkit-transform: rotateY(-90deg) translateX(-30px);
+  -moz-transform: rotateY(-90deg) translateX(-30px);
+  transform: rotateY(-90deg) translateX(-30px); /* z축 깊이 */
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.book-spine:before { 
+  display: block; 
+  content: ""; 
+  width: 100%; 
+  height: 100%; 
+  background: rgba(0, 0, 0, 0.01); 
+}
+  
+
+
+.book2 { 
+  z-index: 5; 
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  transition: 0.75s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 125px 0;
+  -moz-transform-origin: 125px 0;
+  transform-origin: 125px 0;
+}
+
+.book2:hover {
+    /* -webkit-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+    -moz-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+    transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 500px){
+    .blur img {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: calc(100% + 40px);
+      background-size: cover;
+      -webkit-filter: blur(6px); 
+      -moz-filter: blur(6px); 
+      filter: blur(6px);
+    }
+  
+    .book-container { 
+      width: 200px; 
+      margin: 50px auto; 
+      display: block;
+      -webkit-perspective: 1200px;
+      -moz-perspective: 1200px;
+      perspective: 1200px;
+    }
+    .book { 
+      z-index: 5; 
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+      -webkit-transition: 0.75s;
+      -moz-transition: 0.75s;
+      transition: 0.75s;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform-origin: 125px 0;
+      -moz-transform-origin: 125px 0;
+      transform-origin: 125px 0;
+    }
+  
+    .book:hover {
+        /* -webkit-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+        -moz-transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg);
+        transform: translateX(-35px) translateZ(50px) translateX(50px) rotateY(60deg); */
+    }
+    .book-cover { 
+      position: relative; 
+      border:0.5px solid #d3d3d3;
+      z-index: 9; 
+    }
+  
+    .book-cover img { 
+      vertical-align: bottom; 
+      max-width: 100%; 
+      height: auto; 
+    }
+    .book-spine { 
+      position: absolute; 
+      color: #111; 
+      position: absolute; 
+      bottom: 0; 
+      top: 0px; 
+      width:30px;
+      height:298px;
+      left:0px; /* 중심점으로부터의 공간 수직 거리 */
+      z-index: 5; 
+      overflow: hidden; 
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      border:0.5px solid #d3d3d3;
+      /* background: url('../components/image/book_iintheworld_title_line.png') 0 0 no-repeat; */
+      background-size: cover;
+      -webkit-transform: rotateY(-90deg) translateX(-30px);
+      -moz-transform: rotateY(-90deg) translateX(-30px);
+      transform: rotateY(-90deg) translateX(-30px); /* z축 깊이 */
+      -webkit-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      transform-origin: 0 0;
+    }
+  
+    .book-spine:before { 
+      display: block; 
+      content: ""; 
+      width: 100%; 
+      height: 100%; 
+      background: rgba(0, 0, 0, 0.01); 
+    }
+  }

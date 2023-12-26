@@ -1,0 +1,128 @@
+.book_individually_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: 30px auto 50px auto;
+}
+
+.book-container {
+    margin: 0 10px 0 !important;
+}
+
+
+.page0_book_explanation_div {
+    width: 180px;
+    border-radius: 3px;
+    height:295px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#book2_individually_wrapper {
+    position: relative;
+    display: flex;
+}
+
+#book2_blur_comeback2024_image {
+    position: absolute;
+    width: 80vw;
+    z-index: 1;
+    left: 10vw;
+    top: 70px;
+}
+
+#page0_book2_explanation_div {
+    background-color: #b8b8b8;
+    filter: blur(0.7px);
+    -webkit-filter: blur(0.7px);
+
+}
+
+.page0_book_explanation_title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.page0_book_explanation_subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 3;
+}
+
+.page0_book_explanation_content {
+    line-height: 2;
+    font-size: 12px;
+}
+
+
+
+/* 데스크탑 ---------------------------------------------------------------------- */
+@media (min-width: 500px) {
+    .book_individually_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 25vh;
+    }
+
+    
+    .book-container {
+        margin: 50px auto !important;
+    }
+
+    .page0_book_explanation_div {
+        width: 200px;
+        border-radius: 3px;
+        height: 295px;
+        text-align: center;
+        /* position: relative;
+        top: 50px; */
+        background-color: #fefefe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+
+
+    #book2_individually_wrapper {
+        position: relative;
+    }
+
+    #book2_blur_comeback2024_image {
+        position: absolute;
+        width: 400px;
+        z-index: 1;
+        left: 75px;
+        top: 150px;
+    }
+
+    #page0_book2_explanation_div {
+        background-color: #b8b8b8;
+        filter: blur(0.7px);
+        -webkit-filter: blur(0.7px);
+
+    }
+
+    .page0_book_explanation_title {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .page0_book_explanation_subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 3;
+    }
+
+    .page0_book_explanation_content {
+        line-height: 2;
+        font-size: 12px;
+    }
+}

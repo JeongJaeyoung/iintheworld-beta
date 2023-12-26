@@ -1,0 +1,19 @@
+.ant-anchor-wrapper .ant-anchor .ant-anchor-ink::before{
+    display:none;
+}
+
+.ant-anchor-wrapper .ant-anchor .ant-anchor-ink-ball.ant-anchor-ink-ball-visible{
+    display:none;
+}
+
+.float_butoon_position{
+    right:20px;
+    bottom:20px;
+}
+
+@media (min-width: 500px){
+    .float_butoon_position{
+        right:30px;
+        bottom:30px;
+    }
+}

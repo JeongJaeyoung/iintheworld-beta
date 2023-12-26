@@ -1,0 +1,37 @@
+#email-verification-wrapper{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#email-verification-title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#email-verification-content{
+    line-height: 2rem;
+    font-size: 16px;
+}
+
+#signup-temporary-go-to-home-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#singup-temporary-go-to-home{
+    margin-top: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+#singup-temporary-go-to-home:hover{
+    background-color: #ddd;
+}

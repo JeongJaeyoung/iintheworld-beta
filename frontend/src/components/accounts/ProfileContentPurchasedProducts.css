@@ -1,0 +1,21 @@
+/* 모바일 */
+#profile-purchased-product-wrapper{
+    /* display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    /* background-color: #fff; */
+    /* padding:20px; */
+}
+
+.purchased-product-div{
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+/* 데스크탑 */
+@media(min-width:500px){
+    
+}

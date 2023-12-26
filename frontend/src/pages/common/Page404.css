@@ -1,0 +1,22 @@
+#page404-wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#page404-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+#page404-content{
+}
+
+
+#page404-image{
+    width: 200px;
+}

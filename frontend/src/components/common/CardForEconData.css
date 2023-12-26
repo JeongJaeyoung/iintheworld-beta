@@ -1,0 +1,45 @@
+/* 모바일 */
+.card-for-econ {
+    margin: 80px auto;
+    width: 85vw;
+    /* height: 400px; */
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    /* box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    transition: all 0.1s cubic-bezier(0.15, 0.83, 0.66, 1);
+    /* cursor: pointer; */
+  }
+  
+  .card-for-econ:hover {
+    /* transform: scale(1.05); */
+  }
+
+  .card-title{
+    display: flex;
+    align-items: center;
+    /* height:10%; */
+  }
+
+  .card-content{
+    height:350px;
+    margin-bottom: 20px;
+  }
+
+  .card-footer{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    font-size: 10px;
+  }
+
+
+/* 데스크탑 */
+@media(min-width:500px){
+  .card-for-econ {
+    width: 500px;
+    margin: 20px auto 20px auto;
+  }
+}

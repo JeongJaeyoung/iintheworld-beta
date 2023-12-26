@@ -1,0 +1,183 @@
+.hover {
+    transition: all 0.2s linear;
+  }
+.hover:hover {
+    transform: scale(1.1);
+}
+
+#map_wrapper{
+    width:100vw;
+    height:70vh;
+    position:relative;
+    background-color:#fff;
+}
+
+#map_country_layout{
+    position:absolute;
+    top:60vw;
+    left:5vw;
+    width:90vw;
+
+}
+
+#map_financial_economy{
+    position:absolute;
+    width:30vw;
+    top:69vw;
+    left:35vw;
+}
+
+#map_real_economy{
+    width:45vw;
+    position:absolute;
+    top:77vw;
+    left:27.5vw;
+}
+
+#map_total_economy{
+    width:64vw;
+
+    position:absolute;
+    top:65vw;
+    left:18vw;
+    height:25vw;
+}
+
+#map_international_economy{
+    width:55vw;
+    position:absolute;
+    top:100vw;
+    left:40vw;
+}
+
+#map_government{
+    position:absolute ;
+    width:18vw ;
+    top:50vw ;
+    left:63vw;
+}
+
+#map_central_bank{
+
+    position:absolute ;
+    width:23vw ;
+    top:52vw ;
+    left:25vw;
+}
+
+#map_commercial_bank{
+    position:absolute ;
+    width:25vw;
+    top:58vw ;
+    left:37vw;
+    
+}
+
+#map_firm{
+    position:absolute ;
+    width:17vw;
+    top:64vw;
+    left:55vw;
+}
+
+#map_individual{
+    position:absolute ;
+    width:12vw; 
+    top:63vw;
+    left:29vw;
+}
+
+
+@media (min-width: 500px){
+    #map_wrapper{
+        top:100px;
+        height:400px;
+        width:400px; /* country_layout 그림 width와 동일하게 */
+        position:relative;
+        margin:0 auto;
+    }
+
+    .hover {
+        transition: all 0.2s linear;
+    }
+    .hover:hover {
+        transform: scale(1.1);
+    }
+
+    #map_wrapper{
+
+        background-color:unset;
+    }
+    #map_country_layout{
+        width:400px;
+        height:150px;
+        top:0;
+        left:0;
+    }
+
+    #map_financial_economy{
+        position:absolute;
+        width:150px;
+        top:40px;
+        left:115px;
+    }
+
+    #map_real_economy{
+        width:200px;
+        position:absolute;
+        top:80px;
+        left:90px;
+    }
+
+    #map_total_economy{
+        width:280px;
+        position:absolute;
+        top:20px;
+        left:50px;
+        height:110px;
+    }
+
+    #map_international_economy{
+        width:250px;
+        position:absolute;
+        top:170px;
+        left:180px;
+    }
+
+    #map_government{
+        position:absolute ;
+        width:80px ;
+        top:-40px ;
+        left:270px;
+    }
+
+    #map_central_bank{
+
+        position:absolute ;
+        width:100px ;
+        top:-35px ;
+        left:100px;
+    }
+
+    #map_commercial_bank{
+        position:absolute ;
+        width:100px ;
+        top:-5px ;
+        left:140px;
+        
+    }
+
+    #map_firm{
+        position:absolute ;
+        width:70px ;
+        top:30px ;
+        left:220px;
+    }
+
+    #map_individual{
+        position:absolute ;
+        width:50px; 
+        top:25px;
+        left:100px;
+    }
+}

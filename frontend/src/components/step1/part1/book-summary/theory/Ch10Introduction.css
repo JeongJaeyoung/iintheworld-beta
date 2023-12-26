@@ -1,0 +1,152 @@
+/* 모바일 */
+#book-content-layout-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+.main_content{
+    /* margin-top:10vh; */
+    padding: 0px 10px 0px 10px;
+}
+
+.ebook_h1_design{
+    font-weight:700;
+    font-size:18px;
+    margin:20px 0;
+}
+
+.ebook_h2_design{
+    font-weight:700;
+    font-size:17px;
+    margin:20px 0;
+}
+
+.ebook_h3_design{
+    font-weight:700;
+    font-size:16px;
+}
+
+.ebook_h4_design{
+    font-weight:700;
+    font-size:16px;
+}
+
+.ebook_h5_design{
+    font-weight:700;
+    font-size:16px;
+}
+
+.ebook_h6_design{
+    font-weight:700;
+    font-size:16px;
+}
+
+.ebook_main_content_ptag{
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+.ebook_main_content_image_70vw{
+    width:70vw;
+}
+
+.ebook_main_content_image_80vw{
+    width:80vw;
+}
+
+.ebook_main_content_image_90vw{
+    width:90vw;
+}
+
+.ebook_main_content_image_700px{
+    width:700px;
+}
+
+.ebook_main_content_image_800px{
+    width:800px;
+}
+
+.ebook_main_content_image_900px{
+    width:900px;
+}
+
+.ebook_main_content_image_1000px{
+    width:1000px;
+}
+
+
+.ebook_main_content_image_30vw_100px{
+    width:30vw;
+    margin:50px auto;
+    display:block;
+}
+
+.ebook_main_content_image_50vw_300px{
+    width:50vw;
+    margin:50px auto;
+    display:block;
+}
+
+.ebook_main_content_image_80vw_500px{
+    width:80vw;
+    margin:50px auto;
+    display:block;
+}
+
+.ebook_main_content_image_80vw_500px_margin_0auto{
+    width:80vw;
+    margin:0px auto;
+    display:block;
+}
+
+
+.ebook_hr_design{
+    border-top:2px solid #f1f1f1;
+    margin-bottom:30px;
+}
+
+/* 데스크탑 버전 --------------------------------------------------------------------------*/
+@media (min-width: 500px){
+    #layout_wrapper{
+        display:flex;
+        justify-content:center;
+    }
+
+    .ebook_mapleftsidebar_wrapper{
+        margin-top: 5vh;
+        position: sticky;
+        top: 50px;
+    }
+    
+    .main_content{
+        margin-top:0vh;
+        width:75%;
+        max-width:750px;
+        padding-left:20px;
+    }
+
+    .ebook_main_content_image_30vw_100px{
+        width:100px;
+        margin:50px auto;
+        display:block;
+    }
+    
+    .ebook_main_content_image_50vw_300px{
+        width:300px;
+        margin:50px auto;
+        display:block;
+    }
+
+    .ebook_main_content_image_80vw_500px{
+        width:500px;
+        
+    }
+
+    .ebook_main_content_image_80vw_500px_margin_0auto{
+        width:500px;
+        margin:0px auto;
+        display:block;
+    }
+    
+
+}

@@ -1,0 +1,14 @@
+.left_sidebar_anchor_design{
+    margin-top:5vh;
+    position:sticky;
+    top:5vh;
+    z-index:0.5;
+}
+
+/* .ant-anchor-wrapper .ant-anchor .ant-anchor-ink-ball{
+    width:0;
+}
+
+.ant-anchor-wrapper .ant-anchor .ant-anchor-link-active>.ant-anchor-link-title{
+    font-weight: 700;
+} */

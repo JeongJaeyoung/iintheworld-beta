@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# 지금까지 백업한 데이터베이스 조회
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+working_dir="$(dirname ${0})" #현재 스크립트 위치
+
+source "${working_dir}/_sourced/constants.sh"
+source "${working_dir}/_sourced/messages.sh"
+
+message_welcome "These are the backups you have got:"
+
+ls -lht "${BACKUP_DIR_PATH}" #파일과 디렉토리를 리스트로 출력

@@ -1,0 +1,19 @@
+#layout_wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+
+/* 데스크탑 */
+@media (min-width: 500px){
+    #layout_wrapper{
+        display:flex;
+        justify-content:center;
+    }
+ }
+
+ .applayout-header{
+    position: absolute;
+    top:0;
+    width: 100%;
+ }

@@ -1,0 +1,75 @@
+/* 모바일 */
+#part1-products-list-wrapper{
+    width:90vw;
+    overflow: scroll;
+    padding:50px 0px;
+    margin-bottom: 80px;
+}
+
+#part1-products-list-wrapper td{
+    vertical-align:middle;
+}
+
+
+#part1-products-list{
+    margin: 0 auto;
+}
+
+#part1-products-list{
+    width:800px;
+}
+
+#part1-products-list td,
+#part1-products-list th {
+    padding: 10px; /* 각 셀에 10px의 패딩을 추가합니다. */
+    border: 1px solid #ccc; /* 셀 경계선 스타일을 지정합니다. */
+    text-align: center;
+}
+
+
+.part1-product-list-outline{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}
+
+
+/* 데스크탑 */
+@media (min-width: 500px){
+    #part1-products-list-wrapper{
+        width:auto;
+        overflow: auto;
+        padding:50px;
+        margin-bottom: 80px;
+    
+    }
+    
+    #part1-products-list-wrapper td{
+        vertical-align:middle;
+    }
+    
+    
+    #part1-products-list{
+        margin: 0 auto;
+    }
+    
+    #part1-products-list{
+        width:800px;
+    }
+    
+    #part1-products-list td,
+    #part1-products-list th {
+        padding: 10px; /* 각 셀에 10px의 패딩을 추가합니다. */
+        border: 1px solid #ccc; /* 셀 경계선 스타일을 지정합니다. */
+        text-align: center;
+    }
+    
+    
+    .part1-product-list-outline{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 100px;
+    }
+}

@@ -1,0 +1,13 @@
+#product-list-wrapper{
+    width: 1000px;
+}
+
+#product-list-outline1{
+    display: block;
+    width:100%;
+}
+
+#product-list-outline1 table{
+    margin:1px solid black;
+}
+

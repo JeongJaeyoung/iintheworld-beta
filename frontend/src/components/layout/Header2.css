@@ -1,0 +1,348 @@
+/* 데스크탑 버전 */
+/* HEADER - inner1------------------------------------------------------------------------------------ */
+.page{
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.header{
+
+    background-color: transparent;
+}
+
+.inner1 {
+    display:flex;
+    /* align-items:flex-end; */
+    height:8vh;
+    max-width: 1000px;
+    margin:0 auto;
+    background-color: #fefefe;
+}
+.title-small{
+    display: none;
+}
+
+.title-large {
+    width:100vw;
+    padding: 0px 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.toogle_btn {
+    display:none;
+}
+
+.title-large-wrapper{
+    display:flex;
+    align-items: center;
+}
+
+#header1_title_for_desktop{
+    font-size: 22px;
+    font-weight: 900;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#header1_logo_image_for_desktop {
+     height: 40px;
+}
+
+
+#header_desktop_header_line_accounts{
+    display:flex;
+    align-items: center;
+}
+
+.header_margin_right{
+    margin-right:15px;
+}
+
+.header_margin_right2{
+    margin-right:25px;
+}
+
+
+/* HEADER - inner2-------------------------------------------------------------------------------- */                       
+.ant-anchor-wrapper .ant-anchor .ant-anchor-ink::before{
+    width:0px;
+}
+
+
+.inner2 {
+    max-width: 1000px;
+    margin:0 auto;
+}
+#menu_wrapper_for_mobile1{
+    display:none;
+}
+#menu_wrapper_for_mobile2{
+    display:none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-bottom: 0; /* antd 내용 삭제 */
+    background-color:  #ffffff;
+}
+
+#inner2-small-account {
+    display:none;
+}
+
+#inner2-small-channel {
+    display: none;
+}
+
+.menu-item-wrapper{
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.menu-item-step0 {
+    background-color:  #ffffff;
+    /* width: 25%; */
+    padding:1vh;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    text-decoration: none;
+    text-align: center;
+    line-height:5vh;
+}
+
+.menu-item-step1 {
+
+    /* display: inline; */
+    background-color:  #ffffff;
+    /* width: 20%; */
+    padding:1vh;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    text-decoration: none;
+    text-align: center;
+    line-height:5vh;
+}
+
+.menu-item1:hover,
+.menu-item2:hover {
+    background: #fff;
+}
+
+
+/*  모바일 ================================================================================================== */
+
+@media (max-width: 500px){
+    .page{
+        /* position: sticky; */
+        position: absolute;
+        top:0px;
+        z-index:2;
+        width: 100%;
+    }
+
+    .inner1{
+        height: 7vh; /* 첫 메뉴라인 높이 */
+        padding-top:0vh;
+        align-items:center;
+    }
+
+    .website_title{
+        font-size:20px;
+        margin:0;
+        font-weight:700;
+    }
+
+    .title-small{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100vw;
+        background-color:#fefefe;
+        margin: 5px 20px;
+    }
+
+
+    /* 햄버거 버튼 start https://frontbackend.com/css/css-hamburger-menu-icons */
+#nav-icon4 {
+    top:3px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    /* margin: 40px auto; */
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+#nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 1.2px; /* 각줄 높이 - 두께 */
+    width: 100%;
+    background: #111111;
+    border-radius:3px; /* 각줄 둥근 정도 */
+    opacity: 1;
+    left: 0;
+    /* 0.1로 살짤 돌려나와 가운데 선이 진해짐 */
+    -webkit-transform: rotate(0.1deg);
+    -moz-transform: rotate(0.1deg);
+    -o-transform: rotate(0.1deg);
+    transform: rotate(0.1deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+
+#nav-icon4 span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(2) {
+  top: 7px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(3) {
+  top: 14px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 1px; /* 좌상-우하  대각선 위치 잡기 */
+  left: 8px; /* 좌상-우하  대각선 위치 잡기 */
+}
+
+#nav-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon4.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 15px; /* 좌하-우상  대각선 위치 잡기 */
+  left: 8px; /* 좌하-우상  대각선 위치 잡기 */
+}
+/* 햄버거 버튼 end https://frontbackend.com/css/css-hamburger-menu-icons */
+
+    .title-large{
+        display: none;
+    }
+
+    /* 두번째 메뉴 - 토글 메뉴 */
+    .menu-wrapper {
+        position: absolute;
+    }
+
+    .inner2{
+        position:relative;
+        width:100vw;
+        z-index: 10;
+        height:93vh; 
+        background-color: #fff;
+    }
+    .toggle_off{
+        position: absolute;
+        left:-100vw;
+    }
+    
+    .toggle_on {
+        display: block;
+        
+    }
+
+    .menu {
+        display:block;
+    }
+    
+    #inner2-small-account {
+        /* 로그인, 회원가입 버튼 */
+        display:flex;
+        width:80vw;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 7vh;
+    }
+
+    #menu_wrapper_for_mobile1{
+        display:block;
+    }
+
+    #menu_wrapper_for_mobile2{
+        background-color:#ffffff;
+        height:40px;
+        margin-left:25px;
+        display:flex;
+        align-items:center;
+    }
+
+    #menu_wrapper_for_desktop{
+        display:none;
+    }
+ 
+    .menu-item{
+        width:100vw;
+        display:none;
+        transition:none;
+    }
+
+    .menu-link {
+        padding: 1vh;
+        line-height: 5vh; /* 7vh - (padding : 1vh  2 ) */
+        height:7vh; /* 토글 매뉴 각 라인 높이 */
+        display:none;
+        align-items:flex-end;
+    }
+
+    .menu-item:hover {
+        width: 100vw;
+        background: gray;
+    }
+
+    #inner2-small-channel {
+        display: block;
+    }
+
+    .account-button {
+        padding: 0.5vh;
+        text-align: center;
+        width: 35vw;
+        margin: auto 0;
+        background-color: #6E6E73;
+    }
+}

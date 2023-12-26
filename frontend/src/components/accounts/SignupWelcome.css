@@ -1,0 +1,18 @@
+#signup-welcome-wrapper{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#signup-welcome-title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#signup-welcome-content{
+    line-height: 3rem;
+    font-size: 16px;
+
+}

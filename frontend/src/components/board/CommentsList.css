@@ -1,0 +1,45 @@
+#comments-list-hr{
+    border: 0.5px solid #e8e8e8;
+}
+
+#comments-list-textarea {
+    width: 100%;
+}
+
+#comments-list-button {
+    margin:20px 0;
+    background-color: #fff;
+    color: #323232;
+    font-weight: 700;
+    padding: 10px 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+#comments-list-button:hover {
+    background-color: #f1f1f1;
+}
+
+/* 버튼을 클릭했을 때 스타일 변경 */
+#comments-list-button:active {
+    /* background-color: #1c638e; */
+}
+
+
+#comment-new-header{
+    margin: 20px 0;
+}
+
+#my-commnet-wrapper{
+    display: flex;
+}
+
+#my-comment-image{
+    width:30px;
+    height:30px;
+    margin-right:30px;
+    border-radius: 100%;
+    border : 2px solid #e8e8e8;
+}

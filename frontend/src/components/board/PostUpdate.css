@@ -1,0 +1,66 @@
+/* 모바일 */
+#post-update-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 20px 50px 20px;
+    /* height: 100vh; */
+    font-family: NanumSquareRoundR;
+}
+
+#post-update-form-card {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#post-update-form {
+    display: flex;
+    flex-direction:column;
+}
+
+.post-update-input-textarea{
+    margin-bottom: 15px;
+}
+
+#post-update-form > div > input,
+#post-update-form > div > textarea {
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:98%;
+    font-family: NanumSquareRoundR;
+}
+
+#post-update-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items:center;
+
+}
+
+#post-update-form > div > button {
+    padding: 10px;
+    background-color: #fff;
+    color: #323232;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: NanumSquareRoundR;
+    width: 100%;
+}
+
+#post-update-form > div > button:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* 데스크탑 */
+@media(min-width: 500px){
+    #post-update-form-wrapper {
+        margin: 20vh 0 50px 0;
+    }
+}

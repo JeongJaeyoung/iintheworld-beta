@@ -1,0 +1,178 @@
+/* 모바일 */
+.step1-part1-font-bold {
+    font-weight: 700;
+}
+
+#step1-part1-wrapper{
+    padding: 0 20px;
+}
+
+#step1-part1-text-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#step1-part1-text {
+    line-height: 1.8;
+    text-align: center;
+}
+
+#step1-part1-curriculum-flow {
+    text-align: center;
+}
+
+.step1-part1-main-title {
+    color: #1d1d1d;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.step1-part1-main-title-description {
+    color: #6e6e73;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.step1-part1-sub-title {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.step1-part1-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    margin: 0 auto;
+}
+
+.step1-part1-content-text {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.step1-part1-image-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+#level0-theory-wrapper {}
+
+
+#level0-reality-wrapper {
+    margin-bottom: 50px;
+}
+
+#level0-reality-image {
+    max-width: 300px;
+}
+
+
+#level1-theory-wrapper {
+    margin-bottom: 50px;
+}
+
+#level1-theory-image {
+    max-width: 250px;
+}
+
+
+#level1-reality-wrapper {
+    margin-bottom: 100px;
+}
+
+
+/* 데스크탑 */
+@media (min-width: 500px) {
+    .step1-part1-font-bold {
+        font-weight: 700;
+    }
+
+    #step1-part1-wrapper{
+        padding: 0px;
+    }
+
+    #step1-part1-text-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    #step1-part1-text {
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    #step1-part1-curriculum-flow {
+        text-align: center;
+    }
+
+    .step1-part1-main-title {
+        color: #1d1d1d;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+
+    .step1-part1-main-title-description {
+        color: #6e6e73;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .step1-part1-sub-title {
+        font-size: 18px;
+        margin: 40px 0;
+    }
+
+    .step1-part1-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .step1-part1-content-text {
+        color: #323232;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+
+    .step1-part1-image-wrapper{
+        /* display: auto;
+        justify-content: auto; */
+        margin: 0px 0px 50px 0px;
+    }
+
+    #level0-theory-wrapper {}
+
+
+    #level0-reality-wrapper {
+        margin-bottom: 50px;
+    }
+
+    #level0-reality-image {
+        max-width: 300px;
+    }
+
+
+    #level1-theory-wrapper {
+        margin-bottom: 50px;
+    }
+
+    #level1-theory-image {
+        max-width: 250px;
+    }
+
+
+    #level1-reality-wrapper {
+        margin-bottom: 100px;
+    }
+}

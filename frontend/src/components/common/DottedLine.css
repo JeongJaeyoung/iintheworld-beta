@@ -1,0 +1,15 @@
+.dotted-line-wrapper{
+    display:flex;
+    margin:10px 0;
+}
+
+.dotted-line-wrapper .dot:nth-child(even) {
+    background-color: transparent;
+}
+
+.dot{
+    background-color: #ddd;
+    width:10px;
+    height:1px;
+    border-radius: 2px;
+}

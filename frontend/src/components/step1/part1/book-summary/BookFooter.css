@@ -1,0 +1,30 @@
+#content_navigate_arrow_footer_whole{
+    background-color: #fff;
+    padding:20px;
+    margin-top:50px;
+    font-weight: 700;
+}
+
+#content_navigate_arrow_footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#content_navigate_arrow_footer_left_div{
+    display: flex;
+}
+
+.footer_left_arrow_icon_design{
+    width:20px;
+}
+
+#content_navigate_arrow_footer_right_div{
+    display: flex;
+}
+
+.book-footer-text-vertical-center{
+    display: flex;
+    align-items: center;
+}

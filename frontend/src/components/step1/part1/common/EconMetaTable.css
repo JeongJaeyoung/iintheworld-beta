@@ -1,0 +1,49 @@
+/* 테이블 스타일링 */
+.econ-meta-table-styled-table {
+    margin: 50px auto;
+    /* width: 500px; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: ;
+}
+
+.econ-meta-table-styled-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.econ-meta-table-styled-table th, .econ-meta-table-styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.econ-meta-table-styled-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.econ-meta-table-styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.econ-meta-table-styled-table tr th:first-child,
+.econ-meta-table-styled-table tr td:first-child {
+    padding:8px 30px;
+}
+
+.econ-meta-table-styled-table tr th:nth-child(2),
+.econ-meta-table-styled-table tr td:nth-child(2) {
+    width: 200px; /* 두 번째 열의 너비를 200px로 설정 */
+    /* min-width: 150px; 선택적으로 최소 너비 설정 가능 */
+}
+
+.econ-meta-table-styled-table td div {
+    padding-bottom: 10px;
+}
+
+.econ-meta-table-styled-table td div:last-child {
+    padding-bottom: 0; /* 맨 마지막 td 요소의 하위 div에 대한 padding을 제거합니다. */
+}

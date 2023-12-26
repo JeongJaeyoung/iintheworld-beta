@@ -1,0 +1,166 @@
+name: iintheworld_beta-react_django_postgres-prod
+version: "3.9"
+
+services:
+  nginx_proxy:
+    container_name: nginx_proxy
+    image: nginx:latest
+    depends_on:
+      - frontend_react
+      - backend_django_gunicorn
+      - postgres
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always
+    volumes:
+      - "./docker/prod/nginx_proxy/nginx.conf:/etc/nginx/nginx.conf"
+      # - react_build:/var/www/react
+      - static-volume:/app/staticfiles
+      - media-volume:/app/mediafiles
+      - ./myweb:/usr/share/nginx/html
+      - ./certbot-etc:/etc/letsencrypt
+      - "/var/run/docker.sock:/tmp/docker.sock:ro"
+    networks:
+      - iintheworld_beta_network
+
+  certbot:
+    depends_on:
+      - nginx_proxy
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - ./certbot-etc:/etc/letsencrypt
+      - ./myweb:/usr/share/nginx/html
+    command: certonly --webroot --webroot-path=/usr/share/nginx/html --email jjy9678@naver.com --agree-tos --no-eff-email --keep-until-expiring -d iintheworld-beta.com -d www.iintheworld-beta.com
+
+  nginx:
+    image: nginx:latest
+    container_name: myweb
+    restart: always
+    volumes:
+      - ./myweb:/usr/share/nginx/html
+
+  frontend_react:
+    container_name: frontend_react
+    build:
+      context: .
+      dockerfile: ./docker/prod/react/Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    # volumes:
+      # - react_build:/app/build
+    env_file:
+      - ./frontend/.env.production
+    networks:
+      - iintheworld_beta_network
+
+  backend_django_gunicorn:
+    container_name: backend_django_gunicorn
+    build:
+      context: .
+      dockerfile: ./docker/prod/django/Dockerfile
+    command: /start
+    volumes:
+      - ./backend:/app
+      - static-volume:/app/staticfiles
+      - media-volume:/app/mediafiles
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    env_file:
+      - ./backend/.envs/.base/.django
+      - ./backend/.envs/.prod/.django
+      - ./backend/.envs/.prod/.postgres
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - iintheworld_beta_network
+
+  redis:
+    container_name: redis
+    image: redis:7-alpine
+    networks:
+      - iintheworld_beta_network
+
+  celery:
+    container_name: celery
+    build:
+      context: .
+      dockerfile: ./docker/prod/django/Dockerfile
+    command: /start-celeryworker
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.envs/.base/.django
+      - ./backend/.envs/.prod/.django
+      - ./backend/.envs/.prod/.postgres
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - iintheworld_beta_network
+
+  flower:
+    image: mher/flower
+    container_name: flower
+    volumes:
+      - flower_data:/data
+    env_file:
+      - ./backend/.envs/.prod/.django
+      - ./backend/.envs/.prod/.postgres
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - iintheworld_beta_network
+
+  postgres:
+      container_name: postgres
+      build:
+          context: .
+          dockerfile: ./docker/prod/postgres/Dockerfile
+      volumes:
+          - prod_postgres_data:/var/lib/postgresql/data
+          - prod_postgres_data_backups:/backups
+      env_file:
+          - ./backend/.envs/.prod/.postgres
+      ports:
+          - "5432:5432"
+      networks:
+          - iintheworld_beta_network
+
+  portainer:
+      container_name: portainer
+      image: portainer/portainer-ce:latest
+      command: -H unix:///var/run/docker.sock
+      restart: always
+      ports:
+        - "9443:9443"
+      expose:
+        - "9443"
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+        - portainer_data:/data
+      networks:
+        - iintheworld_beta_network  
+
+networks:
+  iintheworld_beta_network:
+    driver: bridge
+
+volumes:
+  react_build:
+  static-volume:
+  media-volume:
+  prod_postgres_data: {}
+  prod_postgres_data_backups: {}
+  flower_data: {}
+  portainer_data: {}

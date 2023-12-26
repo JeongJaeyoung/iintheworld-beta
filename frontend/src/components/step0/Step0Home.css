@@ -1,0 +1,1055 @@
+/* 모바일 */
+.step0-home-content-title {
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.width_400px {
+    width: 400px;
+}
+
+.width_500px {
+    width: 500px;
+}
+
+.width_600px {
+    width: 600px;
+}
+
+.width_700px {
+    width: 700px;
+}
+
+.width_800px {
+    width: 800px;
+}
+
+.width_900px {
+    width: 900px;
+}
+
+.width_1000px {
+    width: 1000px;
+}
+
+.common_content_ptag {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.common_content_image_tag {
+    width: 60vw;
+    margin: 50px auto;
+    display: block;
+
+}
+
+/* CONTENT =  본문 내용 --------------------------------------------------------------------------------------- */
+/* .page0_main_content {
+    background-color: ;
+} */
+
+.ant-carousel .slick-dots {
+    z-index: 0;
+    /* carousel bar가 메뉴바에 가려지게끔 */
+}
+
+
+.carousel_common_style {
+    margin: 0;
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    opacity: 1;
+}
+
+
+
+#page0_image0_flex_center {
+    display: flex;
+    justify-content: center;
+
+    align-items: end;
+}
+
+.page0_carousel0_image {
+    margin-bottom: 10vh;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 100%;
+    /* height:75vh; */
+    padding: 0;
+    position: relative;
+    top: 3vh;
+    /* left:-10%; */
+}
+
+#step0-home-carousel1-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#page0_carousel1_image {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#page0_carousel2_image{
+    width:90%;
+    display:block;
+    margin:0 auto;
+    background-color:#000;
+    width:auto;
+    height:50vh;
+    padding:0;
+    position:relative;
+    top:3vh;
+}
+
+
+#step0-home-carousel1-image {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 30vh;
+    padding: 0;
+    position: relative;
+    /* top: 3vh; */
+}
+
+.page0_chapter0 {
+    width: 100%;
+    margin: 0 auto;
+    height: 73vh;
+    /* 모바일 메뉴바 7vh랑 함쳐서 총 80vh  */
+    background-color: #fefefe;
+    padding-top: 0vh;
+}
+
+.page0_chapter1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 20vh;
+    /* 큰 화면에서의 메뉴바는 8vh + 8vh */
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#page0_chapter1_message {
+    margin: 0 auto;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.page0_chapter1_5 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    display: block;
+}
+
+.page0_chapter1_5_image {
+    width: 200px;
+}
+
+#page0_chapter1_5_image0_wrapper {
+    /* width:80vw; */
+    /* height:400px; */
+    margin: 0 auto;
+    /* background-color:red; */
+}
+
+#page0_chapter1_5_image0 {
+    width: auto;
+    height: 240px;
+    margin: 0 auto;
+
+    display: block;
+}
+
+#page0_chapter1_5_image1_wrapper {
+    width: 80vw;
+    margin: 40px auto;
+    border-top: 1px solid #fafafa;
+    /* background-color:red; */
+}
+
+#page0_chapter1_5_image1 {
+    width: auto;
+    height: 380px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: block;
+}
+
+#page0_chapter1_5_image2_wrapper {
+    width: 80vw;
+    /* height:400px; */
+    margin: 40px auto;
+    border-top: 1px solid #fafafa;
+    /* background-color:red; */
+}
+
+#page0_chapter1_5_image2 {
+    width: auto;
+    height: 340px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: block;
+}
+
+.page0_chapter1_5_image_message {
+    width: 200px;
+    /* height:100px; */
+    background-color: #fff;
+    padding-top: 40px;
+    margin: 0 auto;
+    color: #323232;
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: center;
+
+}
+
+.page0_chapter2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+#page0_chapter2_message1 {
+    font-weight: 700;
+    line-height: 2;
+    padding: 0 20px;
+    display: block;
+    /* height:250px; */
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+
+#page0_chapter2_big_message {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#page0_chapter2_small_message {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+    color: #666;
+    /* text-align:center; */
+}
+
+#page0_chapter2_door_image1_wrapper {
+    width: 90vw;
+}
+
+#page0_chapter2_door_image1 {
+    width: 90vw;
+    margin: 50px auto 0px auto;
+    display: block;
+}
+
+#page0_chapter2_simple_curri {
+    width: 90vw;
+    margin: 0 auto;
+    /* height:600px; */
+    overflow: scroll;
+    background-color: transparent;
+    position: relative;
+}
+
+#page0_simple_curri_image {
+    width: 600px;
+
+    display: block;
+    margin: 50px auto;
+}
+
+#page0_step1_whole_curriculum {
+    width: 95vw;
+    display: block;
+    margin: 50px auto;
+}
+
+#page0_table_for_mobile {
+    overflow: scroll;
+}
+
+#page0_step1_curriculum_table_wrapper {
+    width: 180vw;
+    overflow: scroll;
+    position: relative;
+    margin: 50px 10vw 50px 10vw;
+
+    /* padding:0 50px; */
+    display: flex;
+    justify-content: space-between;
+    left: -10px;
+}
+
+.page0_individual_table_wrapper {
+    border-radius: 10px;
+    border: 3px solid #323232;
+    /* height:100%; */
+    width: 80vw;
+}
+
+#page0_mcw_real_table {
+    margin-bottom: 50px;
+}
+
+/* table.type10 {
+    border-collapse: collapse;
+    border-style: hidden;
+
+
+    text-align: left;
+    line-height: 1.5;
+} */
+
+/* table.type10 thead th {
+    width: 90vw;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    vertical-align: top;
+    color: #323232;
+    background: transparent;
+    margin: 20px 10px;
+    border-top: 3px solid #323232;
+    background-color: #e1e1e1;
+} */
+
+.page0_table_first_title {
+    text-align: center;
+    background-color: #e1e1e1;
+
+}
+
+.page0_table_second_title {
+    background-color: #f1f1f1;
+    font-weight: 700;
+}
+
+
+
+
+/* table.type10 tbody th {
+    width: 90vw;
+
+    padding: 10px;
+}
+
+table.type10 .page0_table_padding {
+    padding-left: 20px;
+    background-color: #fff;
+} */
+
+#page0_chapter2_curriculum {
+    width: 95vw;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#step1_curriculum_image_wrapper {
+    height: 30vh;
+
+    background-color: gold;
+}
+
+#step1_curriculum_image_mcw_theory {
+    width: 80vw;
+}
+
+#step1_curriculum_table_image {
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.page0_chapter2_text {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+.page0_chapter2_h1_tag {
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+}
+
+.page0_chapter2_image_big {
+    width: 80vw;
+    margin: 70px auto;
+    display: block;
+
+}
+
+.page0_chapter2_image {
+    width: 60vw;
+    margin: 70px auto;
+    display: block;
+
+}
+
+.page0_chapter2_image_small {
+    width: 40vw;
+    margin: 70px auto;
+    display: block;
+}
+
+.page0_chapter2_ptag {
+    line-height: 1.8rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+#page0_tabs .ant-tabs-tab+.ant-tabs-tab {
+    /* page0 tabs에만 적용 */
+    /* antd Tabs 마진 줄이기 */
+    margin: 0 0 0 10px;
+}
+
+#page0_tabs .ant-tabs-nav .ant-tabs-nav-wrap {
+    /* page0 tabs에만 적용 */
+    /* 탭을 벌리기 위함 */
+    display: block;
+}
+
+
+#page0_tabs .ant-tabs-nav-list {
+    /* page0 tabs에만 적용 */
+    /* 탭을 벌리기 위함 */
+    justify-content: space-between;
+}
+
+#page0_video_curriculum_design {
+    height: 30vh;
+}
+
+#page0_chapter3 {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* height:500px; */
+    padding: 0px;
+    /* background-color: #f3f3f3; */
+}
+
+#page0_chapter3_inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* display:flex; */
+    justify-content: space-between;
+    /* padding:0 100px 0 100px; */
+}
+
+
+#page0_chapter3_message {
+    /* width:400px; */
+    height: 120px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.2;
+    text-align: center;
+    background-color: transparent;
+    /* margin-top:190px; */
+    margin: 0px 0 90px 0;
+    padding-top: 70px;
+}
+
+
+.page0_chapter4 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    /* height: 100vh;  */
+    background-color: #fefefe;
+}
+
+
+#page0_chapter4_message1 {
+    font-weight: 700;
+    line-height: 2;
+
+    padding: 0 20px;
+    display: block;
+    /* height:250px; */
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+
+#page0_chapter4_big_message {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#page0_chapter4_small_message {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    color: #666;
+    /* text-align:center; */
+}
+
+#page0_chapter4_door_image1_wrapper {
+    width: 80vw;
+}
+
+#page0_chapter4_door_image1 {
+    width: 80vw;
+    margin: 50px auto 50px auto;
+    display: block;
+}
+
+
+#page0_step2_image1 {
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+}
+
+#page0_chapter4_curriculum {
+    width: 95vw;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#page0_step2_whole_curriculum {
+    width: 90vw;
+    display: block;
+    margin: 10px auto;
+}
+
+#step0-home-final-comment-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#step0-home-final-comment{
+    width:80vw;
+    background-color: #fff;
+    color:#323232;
+    text-align: center;
+    padding:15px;
+    border-radius: 10px;
+    margin: 0px 0px 40px 0px;
+    border: 1px solid #e8e8e8;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#step0-home-final-comment:hover{
+    background-color: #f1f1f1;
+}
+
+
+
+/* 데스크탑 ---------------------------------------------------------------------- */
+@media (min-width: 500px) {
+    #step0-home-carousel1-wrapper{
+        margin-top: 0vh;
+    }
+
+    .step0-home-content-title {
+        font-size: 20px;
+        font-weight: 900;
+        border-bottom: 3px solid black;
+        padding-bottom: 7px;
+        margin: 20px 0;
+        display: inline-block;
+    }
+
+    #page0_chapter1x_wrapper {
+        /* background-color: #f9f9f9; */
+    }
+    
+    .common_content_image_tag {
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+        padding: 50px;
+    }
+
+    .carousel_common_style {
+        margin: 0;
+        height: 85vh; /* bcz : header + margin = 15vh */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        opacity: 1;
+    }
+
+    
+
+    #page0_image0_flex_center {
+        display: flex;
+        justify-content: center;
+        background-color: #FFEEC3;
+        align-items: end;
+    }
+
+    #step0-home-carousel1-title{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .page0_carousel0_image {
+        width: 100%;
+        height: unset;
+        background-color: #FFEEC3;
+        left: 0;
+    }
+
+    #page0_carousel1_image {
+        height:80vh;
+        width:auto;
+    }
+
+    #page0_carousel2_image{
+        width:90%;
+        display:block;
+        margin:0 auto;
+        position:relative;
+        top:0vh;
+
+        width:auto;
+        height:60vh;
+        padding:0;
+    
+    }
+
+    #step0-home-carousel1-image {
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 0vh;
+        height: auto;
+        padding: 0;
+
+    }
+
+    .page0_chapter0 {
+        height: 100vh;
+        /* 15vh(메뉴바)+65vh작은 화면에서의 메뉴바는 8vh, 두번째 메뉴바 7vh(1+5+1) */
+        margin-top: 0vh;
+        /* padding-top:15vh; */
+        max-width: 3000px;
+        background-color: #fff;
+    }
+
+    .page0_chapter1 {
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 50vh;
+        /* 큰 화면에서의 메뉴바는 8vh + 8vh */
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #page0_chapter1_message {
+        margin: 0 auto;
+        line-height: 2;
+        font-weight: 700;
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    .page0_chapter1_5 {
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 600px;
+        padding: 10px;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page0_chapter1_5_image {
+        width: 200px;
+    }
+
+    #page0_chapter1_5_image0_wrapper {
+        width: 200px;
+        height: 400px;
+        /* background-color:red; */
+    }
+
+    #page0_chapter1_5_image0 {
+        width: auto;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 160px;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    #page0_chapter1_5_image1_wrapper {
+        width: 200px;
+        height: 400px;
+        border-top: unset;
+    }
+
+    #page0_chapter1_5_image1 {
+        width: auto;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 70px;
+        padding-top: 0px;
+        display: block;
+    }
+
+    #page0_chapter1_5_image2_wrapper {
+        width: 200px;
+        height: 400px;
+        border-top: unset;
+    }
+
+    #page0_chapter1_5_image2 {
+        width: auto;
+        height: 250px;
+        margin: 0 auto;
+        padding-top: 0px;
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .page0_chapter1_5_image_message {
+        width: 200px;
+        height: 150px;
+        background-color: transparent;
+        padding-top: 40px;
+        color: #323232;
+        font-weight: 600;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+
+    #page0_step1_whole_curriculum {
+        width: 900px;
+        display: block;
+        margin: 20px auto 80px auto;
+    }
+
+    #page0_table_for_mobile {
+        overflow: unset;
+    }
+
+    #page0_step1_curriculum_table_wrapper {
+        display: flex;
+        width: unset;
+        overflow: unset;
+        position: unset;
+        margin: 100px 0 100px 0;
+        justify-content: space-between;
+        padding: 0 150px;
+
+    }
+
+    .page0_individual_table_wrapper {
+        border-radius: 10px;
+        border: 3px solid #323232;
+        /* height:100%; */
+        width: unset;
+    }
+
+    /* table.type10 {
+        border-collapse: collapse;
+        border-style: hidden;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    table.type10 thead th {
+        width: unset;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px 10px 0 0;
+        vertical-align: top;
+        color: #323232;
+        background: transparent;
+        margin: 20px 10px;
+        border-top: 3px solid #323232;
+        background-color: #e1e1e1;
+    } */
+
+    .page0_table_first_title {
+        text-align: center;
+        background-color: #e1e1e1;
+
+    }
+
+    .page0_table_second_title {
+        background-color: #f1f1f1;
+        font-weight: 700;
+    }
+
+/*     
+    table.type10 tbody th {
+        width: 250px;
+
+        padding: 10px;
+    }
+
+    table.type10 .page0_table_padding {
+        padding-left: 20px;
+        background-color: #fff;
+    } */
+
+    #page0_chapter2_big_message {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #page0_chapter2_message1 {
+        font-weight: 700;
+        line-height: 2;
+        font-size: 20px;
+        display: flex;
+        height: 250px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    #page0_chapter2_small_message {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 2;
+        color: #666;
+        text-align: center;
+    }
+
+    #page0_chapter2_door_image1_wrapper {
+        width: 400px;
+    }
+
+    #page0_chapter2_door_image1 {
+        width: 400px;
+        margin: 0 auto 30px auto;
+    }
+
+    #step1_curriculum_image_wrapper {
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+        background-color: #fff;
+    }
+
+    #page0_step1_curriculum_image_first_div {
+        width: 400px;
+
+    }
+
+    #page0_step1_curriculum_image_first_div_title {
+        margin: 20px auto;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .page0_step1_curriculum_span {
+        margin: 10px 0px;
+        display: block;
+        font-weight: 700;
+    }
+
+    #page0_step1_curriculum_image_hr {
+        top: 20px;
+        position: relative;
+        height: 700px;
+        width: 1px;
+        border-width: 0;
+        /* color:#f1f1f1; */
+        background-color: #f1f1f1;
+    }
+
+
+    #page0_step1_curriculum_image_second_div {
+        width: 400px;
+    }
+
+    #page0_step1_curriculum_image_second_div_title {
+        margin: 20px auto;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .page0_chapter2 {
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0px;
+        background-color: #fff;
+    }
+
+    .page0_chapter2_image_big {
+        width: 500px;
+        margin: 80px auto;
+        display: block;
+
+    }
+
+    .page0_chapter2_image {
+        width: 300px;
+        margin: 80px auto;
+        display: block;
+    }
+
+    .page0_chapter2_image_small {
+        width: 200px;
+        margin: 80px auto;
+        display: block;
+    }
+
+    #page0_chapter2_curriculum {
+        max-width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #page0_video_curriculum_design {
+        height: 400px;
+        margin: 50px auto;
+        width: 500px;
+    }
+
+
+    #page0_chapter3 {
+        /* max-width: 1000px; */
+        margin: 0 auto;
+
+        /* height:500px; */
+        padding: 0px;
+        /* background-color: #f3f3f3; */
+
+    }
+
+    #page0_chapter3_inner {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px 0 100px;
+    }
+
+    #page0_chapter3_message {
+        width: 400px;
+        height: 120px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2.2;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 190px;
+        padding-top: 0px;
+
+    }
+
+    #step1_curriculum_image_mcw_theory {
+        width: 400px;
+    }
+
+    #step1_curriculum_table_image {
+        width: 500px;
+
+    }
+
+    #page0_step2_image1 {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    #page0_chapter4_message1 {
+        font-weight: 700;
+        line-height: 2;
+        font-size: 20px;
+        display: flex;
+        height: 250px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    #page0_chapter4_small_message {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 2;
+        color: #666;
+        text-align: center;
+    }
+
+    #page0_chapter4_door_image1_wrapper {
+        width: 400px;
+    }
+
+    #page0_chapter4_door_image1 {
+        width: 350px;
+        margin: 0 auto 0px auto;
+    }
+
+
+    #page0_chapter4_curriculum {
+        max-width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+    #page0_step2_whole_curriculum {
+        width: 700px;
+        display: block;
+        margin: 20px auto 80px auto;
+    }
+
+    #step0-home-final-comment{
+        margin-top:50px;
+        max-width: 1000px;
+        width: 100%;
+    }
+}

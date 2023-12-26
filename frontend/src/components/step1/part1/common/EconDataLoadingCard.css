@@ -1,0 +1,20 @@
+/* 모바일 */
+.econ-data-loading-card-wrapper{
+    width:85vw;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    padding: 0 25px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* 데스크탑 */
+@media(min-width:500px){
+    .econ-data-loading-card-wrapper{
+        width:500px;
+        height:400px;
+    }
+}

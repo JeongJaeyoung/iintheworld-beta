@@ -1,0 +1,13 @@
+/* 모바일 */
+#layout_main_content{
+    width:100%; /* LeftSidebar.css의 width 20% 와 합쳐서 100% */
+    background-color:#fff;
+}
+
+/* 데스크탑 */
+@media(min-width:500px){
+    #layout_main_content{
+        width:80%; /* LeftSidebar.css의 width 20% 와 합쳐서 100% */
+        background-color:#fff;
+    }
+}

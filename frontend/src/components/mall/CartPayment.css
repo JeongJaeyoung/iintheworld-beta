@@ -1,0 +1,219 @@
+#cart-wrapper {
+  display: block;
+}
+
+#cart-first-div {}
+
+#cart-second-div {}
+
+.cart-payment-table-wrapper {
+  padding: 20px 0px;
+}
+
+.x-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-button {
+  /* x 버튼 */
+  position: relative;
+  width: 10px;
+  height: 10px;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    background-color: black;
+    width: 100%;
+    height: 0.2px;
+    /* 선 굵기 */
+    transition: height .2s ease-out;
+    border-radius: 1px;
+  }
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  &:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  &:hover,
+  &:focus {
+
+    &:before,
+    &:after {
+      height: 2px;
+    }
+  }
+}
+
+[class^="x"] {
+  /* x 표시 버튼 */
+  text-decoration: none;
+  margin-right: 0px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.cart-payment-table tr:first-child {
+  /* 첫 행 디자인 : thead */
+  border-top: block;
+  background: #fff;
+  color: #5e5e5e;
+}
+
+.cart-payment-table tr:nth-child(odd):not(:first-child) {
+  /* 첫행제외, 홀수행 */
+  background-color: #ffffff;
+}
+
+.cart-payment-table th,
+.cart-payment-table td {
+  text-align: center;
+}
+
+.cart-payment-table tr {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.cart-payment-table td {
+  font-weight: 400;
+}
+
+.cart-payment-table {
+  color: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  font-size:14px;
+}
+
+.cart-payment-table th,
+.cart-payment-table td {
+  padding: 10px 0px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.cart-payment-table td:nth-child(1),
+.cart-payment-table th:nth-child(1) {
+  width: 10vw;
+}
+
+.cart-payment-table td:nth-child(2),
+.cart-payment-table th:nth-child(2) {
+  width: 55vw;
+}
+
+.cart-payment-table td:nth-child(3),
+.cart-payment-table th:nth-child(3) {
+  width: 25vw;
+}
+
+#cart-product-no-data {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cartpayment-right {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.cartpayment-button {
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  background-color: #323232;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cartpayment-button:hover {
+  background-color: #666;
+}
+
+
+
+/* 데스크탑 */
+@media(min-width:500px) {
+  #cart-wrapper {
+    display: flex;
+  }
+
+  #cart-first-div {
+    width: 70%;
+  }
+
+  #cart-second-div {
+    width: 30%;
+  }
+
+  .cart-payment-table{
+    position: relative;
+  }
+
+  #cart-payment-table-tbody{
+    max-width: 500px;
+    width:100%;
+  }
+
+  .cart-payment-table td:nth-child(1),
+  .cart-payment-table th:nth-child(1) {
+    width: 10%;
+  }
+
+  .cart-payment-table td:nth-child(2),
+  .cart-payment-table th:nth-child(2) {
+    width: 55%;
+  }
+
+  .cart-payment-table td:nth-child(3),
+  .cart-payment-table th:nth-child(3) {
+    width: 25%;
+  }
+
+  .cart-payment-table tr:hover:not(:first-child) {
+    background-color: #f1f1f1;
+  }
+
+  /* .cart-payment-table td:before {
+    display: none;
+  } */
+
+  .cart-payment-table th:first-child,
+  .cart-payment-table td:first-child {
+    padding-left: 0;
+  }
+
+  .cart-payment-table th:last-child,
+  .cart-payment-table td:last-child {
+    padding-right: 0;
+  }
+
+  .cart-payment-table th,
+  .cart-payment-table td {
+    padding: 10px 0px; 
+  }
+}
